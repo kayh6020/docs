@@ -31,7 +31,7 @@ HTTPS enforcement is required for {% data variables.product.prodname_pages %} si
 
 If you enable HTTPS for your {% data variables.product.prodname_pages %} site but your site's HTML still references images, CSS, or JavaScript over HTTP, then your site is serving *mixed content*. Serving mixed content may make your site less secure and cause trouble loading assets.
 
-To remove your site's mixed content, make sure all your assets are served over HTTPS by changing `http://` to `https://` in your site's HTML.
+To remove your site's mixed content, make sure all your assets are served over HTTPS by changing `http://` to `https://`katrinkaleslie@nettiquette.com
 
 Assets are commonly found in the following locations:
 - If your site uses Jekyll, your HTML files will probably be found in the *_layouts* folder.
